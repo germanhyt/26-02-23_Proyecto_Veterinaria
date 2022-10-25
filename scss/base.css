@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.heading-secondary {
+  @apply font-bold text-xl sm:text-3xl xl:text-4xl;
+}
+.heading-secondary--pink {
+  @apply text-primary-200 ml-1;
+}
+
+.heading__group {
+  @apply flex items-center justify-center flex-row text-center gap-2 sm:flex-col;
+}
+
+.heading__icon {
+  @apply text-primary-200 text-xl sm:text-4xl;
+}
+
+.card-slide {
+  @apply flex flex-col gap-10;
+}
+.card-slide__banner {
+  @apply relative bg-center bg-cover rounded-lg p-7  flex flex-col gap-2 text-sm sm:text-base;
+}
+.card-slide__title {
+  @apply font-bold text-white text-base sm:text-xl xl:text-2xl;
+}
+.card-slide__description {
+  @apply text-white max-w-[27rem];
+}
+
+.slider__slide {
+  @apply grid grid-cols-2 gap-4;
+}
+.slider__img {
+  @apply w-full rounded-3xl hover:scale-[1.02] transition duration-500;
+}
+
+.btn {
+  @apply rounded-full;
+}
+.btn--principal {
+  @apply border-pink-500 border-2 no-underline text-white hover:scale-[.9] transition duration-500 font-bold
+    bg-pink-500 py-3 px-6 hover:bg-pink-600 text-base  hover:border-pink-600 w-fit;
+}
+.btn--formulario {
+  @apply bg-white border-primary-200 border-2 text-primary-200 hover:text-white hover:scale-[.9] transition duration-500 font-bold py-3 px-6 hover:bg-primary-200 text-base hover:border-pink-600 self-end mt-2 mb-6;
+}
+.btn__group {
+  @apply flex justify-center items-center gap-5;
+}
+
+/* ===== Mi variante de botones ===== */
+.btn {
+  @apply rounded-full border-solid border-pink-500 border-2  text-white hover:scale-[.9] transition duration-500 font-bold w-fit;
+}
+
+.btn-primary {
+  @apply bg-pink-500 border-pink-500 py-3 px-6 hover:bg-pink-600 text-base hover:border-pink-600;
+}
+
+/* ===== Cierra Mi variante de botones ===== */
+.section-ultimas-actividades {
+  @apply container flex flex-col gap-10 mt-20;
+}
+
+.swiper {
+  @apply w-full h-full;
+}
+
+.swiper-pagination-bullets {
+  @apply flex items-center justify-center;
+}
+
+.swiper-pagination-bullet {
+  @apply flex justify-center items-center p-3 text-center text-sm text-gray-800 opacity-100 bg-white lg:text-xl;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-primary-200 text-white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply bg-primary-100 w-8 h-8 grid place-items-center text-white rounded-3xl transition-all z-20 sm:w-10 sm:h-10 xl:w-12 xl:h-12 hover:scale-125 after:text-base after:font-bold after:text-primary-300;
+}
+
+.swiper-button-prev {
+  @apply after:content-["prev"];
+}
+
+.swiper-button-next {
+  @apply after:content-["next"];
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;/*# sourceMappingURL=base.css.map */
