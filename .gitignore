@@ -18,7 +18,8 @@ dist-ssr
 
 css/output.css
 css/output.css.map
-scss/base.css*
+scss/base.css
+scss/base.css.map
 
 .idea
 .DS_Store

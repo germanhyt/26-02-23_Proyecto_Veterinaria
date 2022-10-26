@@ -8,21 +8,18 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Poppins", "sans-serif"],
+      display: ["Poppins", "sans-serif"],
     },
     extend: {
       backgroundImage: {
         "card-slide": "url('https://i.postimg.cc/kgJ6sbTR/image-9.png')",
-        "home-slide-mobile":
-          "url('https://i.postimg.cc/vmDbcv4G/section-home-hero-movil.png')",
-        "home-slide-desktop":
-          "url('https://i.postimg.cc/nLbJnx62/slider-home.png')",
       },
       colors: {
-        "primary-100": "#FFCBE0",
-        "primary-200": "#FF3586",
-        "primary-300": "#9A2353",
-        "primary-400": "#13020C",
+        "primary-100": "#5F504D",
+        "primary-200": "#958472",
+        "primary-300": "#57B6B2",
+        "primary-400": "#E8FF59",
+        "primary-500": "#E1FFFE",
       },
       container: {
         center: true,
