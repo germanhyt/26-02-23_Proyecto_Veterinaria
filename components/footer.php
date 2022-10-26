@@ -1,6 +1,6 @@
 <footer class="bg-[#449C98]">
     <div class="flex flex-row ">
-        <div class="text-white px-10 2xlpx-20">
+        <div class="text-white px-20">
             <img src="../img/logo.jpg" alt="" class="mt-5">
             <div class="pt-1 pb-7">
                 <h3 class="font-semibold">Nuestra Organización</h3>
