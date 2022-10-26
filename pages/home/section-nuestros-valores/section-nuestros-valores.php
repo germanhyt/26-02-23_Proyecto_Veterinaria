@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <section class="2xl:pb-64 xl:pb-80 pb-0">
     <div class="xl:h-[300px] lg:h-Full bg-[#C5B9AC4D]">
+=======
+<section class="h-[65rem] xl:h-[39rem]">
+    <div class="h-[300px] bg-[#C5B9AC4D]">
+>>>>>>> aaron
         <h2 class="text-center text-2xl mb-10 leading-8 text-[#958472] pt-8">Nuestros<br><span class="text-[#5F504D] font-bold">Valores de Marca</span></h2>
         <div class="container grid xl:grid-cols-3 grid-cols-1 gap-4 lg:px-20 xl:px-40">
             <div class="text-center bg-[#77DFDB] text-[#5F504D] mb-10 xl:mt-10 xl:mb-0 rounded-xl px-10 pb-8">

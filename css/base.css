@@ -6,7 +6,7 @@
 }
 
 .h1 {
-  font-size: clamp(3rem, 12vw - 1.5rem, 6rem);
+  font-size: clamp(3rem, 8vw - 1.5rem, 4.5rem);
 }
 
 .h2 {
@@ -21,7 +21,7 @@ body {
   @apply py-[9px] px-10 rounded-[5px] transition duration-300 border-[2px] border-transparent;
 }
 .btn--primary {
-  @apply bg-primary-400 text-primary-100;
+  @apply bg-primary-400 text-primary-100 leading-[45px];
 }
 .btn--secondary {
   @apply bg-primary-300 text-white;
