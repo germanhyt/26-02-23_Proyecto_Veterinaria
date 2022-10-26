@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.h1,
+.h2,
+.h3 {
+  @apply font-bold font-display;
+}
+
+.h1 {
+  font-size: clamp(3rem, 8vw - 1.5rem, 4.5rem);
+}
+
+.h2 {
+  font-size: clamp(1.5rem, 1.5vw + 1.2rem, 2.25rem);
+}
+
+body {
+  @apply font-display;
+}
+
+.btn {
+  @apply py-[9px] px-10 rounded-[5px] transition duration-300 border-[2px] border-transparent;
+}
+.btn--primary {
+  @apply bg-primary-400 text-primary-100 leading-[45px];
+}
+.btn--secondary {
+  @apply bg-primary-300 text-white;
+}
+
+.section-apadrinar {
+  @apply bg-[#77DFDB];
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-primary-500;
+}/*# sourceMappingURL=base.css.map */

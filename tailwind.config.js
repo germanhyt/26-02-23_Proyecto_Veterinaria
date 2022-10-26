@@ -13,6 +13,22 @@ module.exports = {
     extend: {
       backgroundImage: {
         "card-slide": "url('https://i.postimg.cc/kgJ6sbTR/image-9.png')",
+        "home-slide-mobile":
+          "url('https://i.postimg.cc/vmDbcv4G/section-home-hero-movil.png')",
+        "home-slide-desktop":
+          "url('https://i.postimg.cc/nLbJnx62/slider-home.png')",
+        "card-dog-adopcion-1": "url('https://i.postimg.cc/0jcHJMYs/p2-1-1.png')",
+        "card-dog-adopcion-2": "url('https://i.postimg.cc/C1C2S6dd/p2-1.png')",
+        "card-dog-adopcion-3": "url('https://i.postimg.cc/Wz2H36J8/p5-1.png')",
+        "card-cat-adopcion-1": "url('https://i.postimg.cc/N0wsPPnL/p12.png')",
+        "card-cat-adopcion-2": "url('https://i.postimg.cc/0jH5W5gq/13.png')",
+        "card-cat-adopcion-3": "url('https://i.postimg.cc/Vv6RXgBk/14.png')",
+        "card-kid-adopcion-1": "url('https://i.postimg.cc/L6w6jsBt/15.png')",
+        "card-kid-adopcion-2": "url('https://i.postimg.cc/BZhvQpjw/16.png')",
+        "card-kid-adopcion-3": "url('https://i.postimg.cc/sDvgBWSf/17.png')",
+        "bg-patitas-adpcion-1": "url('/img/section-adapta-apadrina/bg-patitas-skyblue.svg')",
+        "bg-patitas-adpcion-2": "url('/img/section-adapta-apadrina/bg-patitas-brown.svg')",
+        "bg-patitas-adpcion-3": "url('/img/section-adapta-apadrina/bg-patitas-brow-intense.svg')",
       },
       colors: {
         "primary-100": "#5F504D",
