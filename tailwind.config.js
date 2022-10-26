@@ -20,6 +20,7 @@ module.exports = {
         "primary-300": "#57B6B2",
         "primary-400": "#E8FF59",
         "primary-500": "#E1FFFE",
+        "primary-600": "#77DFDB",
       },
       container: {
         center: true,

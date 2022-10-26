@@ -1,7 +1,7 @@
 .btn {
   @apply py-[9px] px-10 rounded-[5px] transition duration-300 border-[2px] border-transparent;
   &--primary {
-    @apply bg-primary-400 text-primary-100;
+    @apply bg-primary-400 text-primary-100 leading-[45px];
   }
 
   &--secondary {
