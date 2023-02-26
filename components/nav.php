@@ -1,7 +1,11 @@
+<?php 
+  include_once('./config/config.php');
+?>
+
 <header class="bg-primary-300 py-4">
   
   <nav class="flex justify-between items-center container">
-    <a class="w-[7rem] md:w-[10rem] block" href="#"><img class="w-full" loading="lazy" src="../img/logo-accion-solidaria.svg" alt="Acción solidaria"></a>
+    <a class="w-[7rem] md:w-[10rem] block" href="#"><img class="w-full" loading="lazy" src="<?php echo constant('HOST').'/img/logo-accion-solidaria.svg' ?>" alt="Acción solidaria"></a>
     <ul class=" gap-10 items-center hidden xl:flex">
       <li><a href="#" class="text-white">Inicio</a></li>
       <li><a href="#" class="text-white">Consultas</a></li>
